@@ -2,7 +2,7 @@
 This repository contains implementations of several fundamental machine learning and statistical models. 
 
 ## Regression
-* [Simple Linear Regression] (regression/simple_lr.py)
+* [Simple Linear Regression](regression/simple_lr.py)
 * Multiple Linear Regression
 * Logistic Regression
 
