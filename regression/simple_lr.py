@@ -1,5 +1,4 @@
-
-    def predict(self, features) -> np.array:import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import make_regression
 from scipy.stats import norm
@@ -38,6 +37,7 @@ class SimpleLinearModel(object):
         """ calculate variance """
         self.b0 = self.ybar - (self.b1 * self.xbar)
 
+    def predict(self, features) -> np.array:
         """ predict regression line using exiting model """
         return self.b0 + self.b1 * features
 
